@@ -1,5 +1,6 @@
 .container {
   width: 1410px;
+  height: auto;
 }
 
 .col-1 {
@@ -29,4 +30,8 @@
 body {
   width: 1600px;
   height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=style.css.map */
