@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  .header-contacts {
+    display: flex;
+    align-items: center;
+    background-color: #0c4b35;
+    color: #ffffff;
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .container {
+      display: flex;
+    }
+
+    .contacts {
+      display: flex;
+      justify-content: space-around;
+
+      .email,
+      .phone,
+      .location {
+        display: flex;
+        align-items: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .languadge {
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      img {
+        width: 12px;
+        height: 6.84px;
+        padding-left: 5px;
+      }
+    }
+  }
+}

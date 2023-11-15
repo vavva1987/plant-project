@@ -1,6 +1,8 @@
 .container {
   width: 1410px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col-1 {
@@ -21,6 +23,59 @@
 .col-4 {
   width: 100%;
   height: auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.header .header-contacts {
+  display: flex;
+  align-items: center;
+  background-color: #0c4b35;
+  color: #ffffff;
+  width: 100%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .header-contacts .container {
+  display: flex;
+}
+.header .header-contacts .contacts {
+  display: flex;
+  justify-content: space-around;
+}
+.header .header-contacts .contacts .email,
+.header .header-contacts .contacts .phone,
+.header .header-contacts .contacts .location {
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header .header-contacts .contacts .email p,
+.header .header-contacts .contacts .phone p,
+.header .header-contacts .contacts .location p {
+  margin-left: 10px;
+}
+.header .header-contacts .languadge {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .header-contacts .languadge img {
+  width: 12px;
+  height: 6.84px;
+  padding-left: 5px;
 }
 
 * {
