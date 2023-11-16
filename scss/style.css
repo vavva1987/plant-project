@@ -1,5 +1,5 @@
 .container {
-  width: 1410px;
+  min-width: 1410px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -76,6 +76,7 @@
   width: 12px;
   height: 6.84px;
   padding-left: 5px;
+  margin-right: 10px;
 }
 .header .navbar {
   width: 100%;
@@ -132,7 +133,6 @@
 }
 
 body {
-  width: 1600px;
   height: auto;
   font-family: "Nunito Sans", sans-serif;
   font-family: "PT Sans", sans-serif;
