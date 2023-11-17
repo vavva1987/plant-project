@@ -23,6 +23,11 @@
       display: flex;
       justify-content: space-between;
 
+      @media (max-width: 425px) {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
       .email,
       .phone,
       .location {
@@ -34,6 +39,11 @@
         font-weight: 400;
         p {
           margin-left: 10px;
+        }
+        @media (max-width: 425px) {
+          p {
+            display: none;
+          }
         }
       }
     }
@@ -71,6 +81,11 @@
         img {
           width: 120px;
           height: 55px;
+
+          @media (max-width: 425px) {
+            width: 90px;
+            height: 40px;
+          }
         }
       }
       .menu {
@@ -95,12 +110,35 @@
             color: #00730c;
           }
         }
+        @media (max-width: 425px) {
+          a {
+            display: none;
+          }
+          button img {
+            display: none;
+          }
+
+          background-image: url(../img/menu_button.png);
+          background-repeat: no-repeat;
+        }
+
         button {
           background-color: #ffffff;
           border: none;
           display: flex;
           justify-content: center;
           align-items: center;
+
+          @media (max-width: 425px) {
+            background-image: url(../img/call_button.png);
+            background-repeat: no-repeat;
+            display: flex;
+            width: 30px;
+            height: 30px;
+            padding: 5.625px 0px;
+            justify-content: center;
+            align-items: center;
+          }
         }
       }
     }
