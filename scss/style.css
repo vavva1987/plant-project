@@ -1,41 +1,9 @@
 .container {
-  max-width: 1410px;
+  max-width: 1440px;
   width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-}
-@media (max-width: 1024px) {
-  .container {
-    width: 920px;
-  }
-}
-@media (max-width: 1023px) {
-  .container {
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.col-1 {
-  width: 25%;
-  height: auto;
-}
-
-.col-2 {
-  width: 50%;
-  height: auto;
-}
-
-.col-3 {
-  width: 75%;
-  height: auto;
-}
-
-.col-4 {
-  width: 100%;
-  height: auto;
 }
 
 .header {
@@ -234,6 +202,69 @@
   .header .navbar .menu-item {
     display: none;
   }
+}
+.header .header-content {
+  display: flex;
+  flex-direction: column;
+}
+.header .header-content .container {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .header .header-content .container {
+    width: 768px;
+  }
+}
+@media (max-width: 1023px) {
+  .header .header-content .container {
+    width: 1023px;
+  }
+}
+.header .header-content .container .header-img {
+  background-image: url(../img/header_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 425px;
+  height: 240px;
+}
+@media (min-width: 768px) {
+  .header .header-content .container .header-img {
+    width: 768px;
+    height: 673px;
+  }
+}
+@media (min-width: 1024px) {
+  .header .header-content .container .header-img {
+    width: 1013px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.header .header-content .container .vector {
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.header .header-content .container .vector .vector-1 {
+  display: flex;
+  align-items: center;
+}
+.header .header-content .container .vector .vector-1 .vector-img {
+  background-image: url(../img/vector.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.header .header-content .container .vector .vector-1 h1 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
 }
 
 * {
