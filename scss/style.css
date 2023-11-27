@@ -22,6 +22,8 @@
 @media (min-width: 1440px) {
   .container {
     width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -225,6 +227,9 @@
   align-items: center;
   justify-content: center;
 }
+.header .header-nav .container .navbar .menu ul li:hover {
+  color: #00730c;
+}
 @media (max-width: 1023px) {
   .header .header-nav .container .navbar .menu ul li {
     display: none;
@@ -238,6 +243,77 @@
   line-height: 20px;
   text-transform: capitalize;
   margin-right: 5px;
+}
+.header .header-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.header .header-bottom .container .bottom-img img {
+  width: 100%;
+  height: 240px;
+  margin-bottom: -3px;
+}
+@media (max-width: 768px) {
+  .header .header-bottom .container .bottom-img img {
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .header .header-bottom .container .bottom-img img {
+    width: 1013px;
+    height: 673px;
+  }
+}
+.header .header-bottom .container .header-content {
+  background: var(--main-gradient-1-color, linear-gradient(40deg, rgba(0, 115, 12, 0.81) -22.86%, rgba(251, 246, 238, 0) 116.18%));
+}
+.header .header-bottom .container .header-content .content-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header-bottom .container .header-content .content-container .vector {
+  display: flex;
+  align-items: center;
+}
+.header .header-bottom .container .header-content .content-container .vector img {
+  width: 24px;
+  height: 20px;
+}
+.header .header-bottom .container .header-content .content-container .vector h1 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5px;
+}
+.header .header-bottom .container .header-content .content-container .heading {
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.header .header-bottom .container .header-content .content-container .heading p {
+  color: #00730c;
+}
+.header .header-bottom .container .header-content .content-container .txt {
+  width: 100%;
+  margin-top: 15px;
+}
+.header .header-bottom .container .header-content .content-container .txt p {
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #212529;
 }
 
 * {
