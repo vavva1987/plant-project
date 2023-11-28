@@ -268,7 +268,7 @@
   background: var(--main-gradient-1-color, linear-gradient(40deg, rgba(0, 115, 12, 0.81) -22.86%, rgba(251, 246, 238, 0) 116.18%));
 }
 .header .header-bottom .container .header-content .content-container {
-  width: 400px;
+  width: 345px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
